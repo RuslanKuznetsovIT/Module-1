@@ -3,6 +3,7 @@
   width: 1400px;
   background-color: #f5f5f5;
   font-family: "Manrope";
+  margin: 0 auto;
 }
 
 .container {
@@ -24,7 +25,7 @@
   height: 500px;
   box-sizing: border-box;
   padding: 379px 680px 40px 40px;
-  background-image: url(/resources/body-1.png);
+  background-image: url(../resources/body-1.png);
   font-family: "Manrope";
   font-weight: 400;
   font-size: 20px;
@@ -104,4 +105,26 @@
   line-height: 100%;
   font-size: 20px;
   text-decoration: none;
+}
+
+.btn-all {
+  display: block;
+  margin-left: 125px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  height: 153px;
+  width: 1150px;
+  box-sizing: border-box;
+  padding: 0 auto;
+  font-family: "Manrope";
+  font-size: 30px;
+  text-align: center;
+  line-height: 153px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.btn-all:hover {
+  background-color: #ad1818;
+  color: white;
 }
