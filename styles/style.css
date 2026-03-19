@@ -30,7 +30,7 @@ main {
   height: 500px;
   box-sizing: border-box;
   padding: 379px 680px 40px 40px;
-  background-image: url(resources/body-1.png);
+  background-image: url(../resources/body-1.png);
   font-family: "Manrope";
   font-weight: 400;
   font-size: 20px;
@@ -139,7 +139,6 @@ main {
 
 .services {
   background-color: black;
-  height: 1844px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -150,4 +149,25 @@ main {
   color: white;
   padding-left: 125px;
   padding-top: 151px;
+  margin-bottom: 34px;
+}
+
+.services__cards:nth-last-child(1) {
+  margin-bottom: 150px;
+}
+
+.services__card {
+  width: 1150px;
+  margin: 0 auto 60px;
+}
+
+.services__card-img {
+  margin-bottom: 15px;
+}
+
+.services__card-text {
+  font-family: "Manrope";
+  font-size: 30px;
+  line-height: 100%;
+  color: white;
 }
